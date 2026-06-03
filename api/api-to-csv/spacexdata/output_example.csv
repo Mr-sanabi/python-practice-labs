@@ -1,0 +1,4 @@
+Rocket_Id,Success,Failure_time,Failure_altitude,Failure_reason,Details
+5e9d0d95eda69955f709d1eb,False,33,,merlin engine failure,Engine failure at 33 seconds and loss of vehicle
+5e9d0d95eda69955f709d1eb,False,301,289,harmonic oscillation leading to premature engine shutdown,"Successful first stage burn and transition to second stage, maximum altitude 289 km, Premature engine shutdown at T+7 min 30 s, Failed to reach orbit, Failed to recover first stage"
+5e9d0d95eda69955f709d1eb,False,140,35,residual stage-1 thrust led to collision between stage 1 and stage 2,Residual stage 1 thrust led to collision between stage 1 and stage 2

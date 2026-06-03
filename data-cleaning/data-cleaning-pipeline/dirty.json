@@ -1,0 +1,15 @@
+[
+  {"id": 1, "name": "Laptop", "price": 1200, "stock": 5, "category": "electronics"},
+  {"id": 2, "name": "Phone", "price": 800, "stock": 15, "category": "electronics"},
+  {"id": 3, "name": "Keyboard", "price": 50, "stock": 30, "category": "accessories"},
+
+  {"id": 2, "name": "Phone", "price": 800, "stock": 15, "category": "electronics"},  
+  {"id": 4, "name": "Mouse", "price": 25, "stock": 50, "category": "accessories"},
+  {"id": 5, "name": "Monitor", "price": 300, "stock": 8, "category": "electronics"},
+
+  {"id": 3, "name": "Keyboard", "price": 50, "stock": 30, "category": "accessories"},  
+  {"id": 6, "name": "Chair", "price": 150, "stock": 20, "category": "furniture"},
+  {"id": 7, "name": "Desk", "price": 400, "stock": 10, "category": "furniture"},
+
+  {"id": 5, "name": "Monitor", "price": 300, "stock": 8, "category": "electronics"}
+]
