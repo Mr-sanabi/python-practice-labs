@@ -1,0 +1,7 @@
+id,name,email,city,company
+1,John Miller,john.miller@example.com,Warsaw,Northwind Trading
+2,Anna Kowalska,anna.kowalska@example.com,Krakow,BlueSoft Analytics
+3,Michael Brown,wrong-email,Berlin,DataBridge GmbH
+4,Sarah Connor,,London,Cyberdyne Systems
+5,John Miller,john.miller@example.com,Warsaw,Northwind Trading
+6,,empty.name@example.com,Paris,Example Corp
