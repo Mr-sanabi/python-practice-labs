@@ -1,0 +1,4 @@
+id,name,email,city,company,active
+1,John Miller,john.miller@example.com,Warsaw,Northwind Trading,true
+2,Anna Kowalska,anna.kowalska@example.com,Krakow,BlueSoft Analytics,false
+3,Michael Brown,michael.brown@example.com,Berlin,DataBridge GmbH,true
