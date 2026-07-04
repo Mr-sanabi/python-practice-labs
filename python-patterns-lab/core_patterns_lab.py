@@ -124,4 +124,42 @@ def build_detailed_report(products):
     return "\n".join(lines)
 
 detailed_report = build_detailed_report(products)
-print(detailed_report)
+# print(detailed_report)
+
+
+# =========================
+# Gate 6 — isinstance
+# =========================
+
+
+def validate_records(data):
+    if not isinstance(data, list):
+        print("Error: data must be a list")
+        return []
+    
+    return data
+
+
+def filter_valid_recorcds(records):
+    valid_records = []
+
+    for record in records:
+        if isinstance(record, dict):
+            valid_records.append(record)
+        else:
+            print(f"Skipped invalid record: {record}")
+    
+    return valid_records
+
+
+mixed_data = [
+    {"title": "Black Shirt", "price": "$29.99"},
+    "wrong record",
+    {"title": "White Shirt", "price": "$24.99"},
+    123,
+]
+
+records = validate_records(mixed_data)
+valid_records = filter_valid_recorcds(records)
+
+print(valid_records)
