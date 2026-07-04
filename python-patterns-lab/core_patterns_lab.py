@@ -75,4 +75,53 @@ def build_simple_report(products):
     return "\n".join(lines)
 
 report = build_simple_report(products)
-print(report)
+# print(report)
+
+
+# =========================
+# Gate 4 — enumerate
+# =========================
+
+
+def build_numbered_report(products):
+    lines = []
+
+    lines.append("# Numbered Product Report")
+    lines.append("")
+
+    for index, product in enumerate(products, start=1):
+        lines.append(f"## Product {index}")
+        lines.append(f"Title: {product['title']}")
+        lines.append(f"Price: {product['price']}")
+        lines.append(f"SKU: {product['sku']}")
+
+    return "\n".join(lines)
+
+numbered_report = build_numbered_report(products)
+# print(numbered_report)
+
+
+# =========================
+# Gate 5 — nested loops
+# =========================
+
+
+def build_detailed_report(products):
+    lines = []
+
+    lines.append("# Datailed Product Report")
+    lines.append("")
+
+    for index, product in enumerate(products, start=1):
+        lines.append(f"## Product {index}")
+        lines.append("")
+
+        for key, value in product.items():
+            lines.append(f"- {key}: {value}")
+
+        lines.append("")
+
+    return "\n".join(lines)
+
+detailed_report = build_detailed_report(products)
+print(detailed_report)
