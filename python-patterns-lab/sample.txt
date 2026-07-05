@@ -1,0 +1,2 @@
+Hello from Python file writing!
+Second line added with append
