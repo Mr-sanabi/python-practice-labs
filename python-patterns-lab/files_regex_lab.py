@@ -89,13 +89,48 @@ def extract_urls(text):
     return urls
 
 
-emails = extract_emails(messy_text)
-prices = extract_prices(messy_text)
-urls = extract_urls(messy_text)
+# emails = extract_emails(messy_text)
+# prices = extract_prices(messy_text)
+# urls = extract_urls(messy_text)
 
-empty_text = "No useful data here."
+# empty_text = "No useful data here."
 
-print("Emails:", empty_text)
-print("Prices:", empty_text)
-print("URLs:", empty_text)
+# print("Emails:", empty_text)
+# print("Prices:", empty_text)
+# print("URLs:", empty_text)
 
+text = read_text_file("messy_text.txt")
+# print(text)
+
+emails = extract_emails(text)
+prices = extract_prices(text)
+urls = extract_urls(text)
+
+print("Email:", emails)
+print("Prices:", prices)
+print("URLs:", urls)
+
+
+def build_extraction_report(emails, prices, urls):
+    lines = []
+    lines.append("# Extraction Report")
+    lines.append("")
+    lines.append("## Emails")
+    
+    for email in emails:
+        lines.append(f"- {email}")
+    lines.append("")
+    lines.append("## Prices")
+
+    for price in prices:
+        lines.append(f"- {price}")
+    lines.append("")
+    lines.append("## URLs")
+
+    for url in urls:
+        lines.append(f"- {url}")
+
+    return "\n".join(lines)
+
+report = build_extraction_report(emails, prices, urls)
+write_text_file("extracted_report.md", report)

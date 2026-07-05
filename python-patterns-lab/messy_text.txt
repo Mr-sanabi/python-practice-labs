@@ -1,0 +1,12 @@
+Client contact: hello@example.com
+Backup email: support@test.org
+
+Product page: https://example.com/products/123
+Docs: http://docs.example.com/start
+
+Main price: $29.99
+Discount price: $19.50
+Old price: $49.00
+
+Order ID: ORD-2026-001
+Random text without structure.
