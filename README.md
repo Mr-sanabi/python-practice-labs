@@ -1,30 +1,31 @@
 # Python Practice Labs
 
-Small Python practice projects for scraping, APIs, CSV/JSON processing, CLI tools, and automation.
+A home for focused Python exercises, recovered experiments, and reusable implementation patterns. This repository is intentionally a learning workspace, not a single production application.
 
-This repository contains focused learning exercises and smaller experiments that do not need their own standalone portfolio repositories.
+## Lab index
 
-## Structure
+| Area | Status | Purpose |
+|---|---|---|
+| `python-patterns-lab/` | Active learning lab | Small examples covering files, regular expressions, CSV processing, requests, and scraping structure |
+| `scraping/` | Reserved | Parser and extraction exercises |
+| `api/` | Reserved | API and JSON-processing exercises |
+| `data-cleaning/` | Reserved | CSV cleanup and transformation exercises |
+| `cli/` | Reserved | Command-line interface experiments |
+| `automation/` | Reserved | Small automation scripts |
+| `notes/` | Reserved | Reusable patterns and lessons learned |
 
-- `scraping/` — small web scraping exercises
-- `api/` — API and JSON processing practice
-- `data-cleaning/` — CSV cleaning and transformation exercises
-- `cli/` — command-line tool experiments
-- `automation/` — small automation scripts
-- `notes/` — reusable patterns and lessons learned
+## Repository policy
 
-## Purpose
+- Labs stay small and explain the concept being practiced.
+- Generated files are committed only when they are useful examples.
+- Standard-library modules are never listed as installable dependencies.
+- Mature portfolio tools and flagship systems remain in separate repositories.
+- Recovered legacy exercises are labelled clearly instead of being presented as current products.
 
-The goal of this repository is to keep smaller practice projects organized while keeping my GitHub profile clean.
+## Running a lab
 
-Portfolio-ready projects and larger flagship projects are kept as separate repositories.
+Open the lab's own README first. Most exercises can be run directly with Python 3.11+ and use local sample data. Network examples may require `requests` and should be treated as experiments rather than stable integrations.
 
-## Current Focus
+## Scope
 
-- Python
-- web scraping
-- data extraction
-- automation
-- CSV/JSON processing
-- APIs
-- clean project structure
+Current topics include Python fundamentals, web scraping, APIs, automation, regular expressions, and CSV/JSON processing.
