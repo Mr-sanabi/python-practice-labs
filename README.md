@@ -1,14 +1,18 @@
 # Python Practice Labs
 
-Small Python exercises and experiments, not a single application.
+Small Python exercises and recovered experiments, not a single application.
 
-## Start here
+## Labs
 
-[`python-patterns-lab/`](python-patterns-lab/) contains examples for files, regex, CSV, requests, and scraping.
-Read each lab's README for its setup and sample data. Most exercises use Python 3.11+; some network examples need `requests`.
+- [Python patterns](python-patterns-lab/): files, regex, CSV, requests, and scraping examples.
+- [Scraping](scraping/): population-table scraping and Playwright basics.
+- [APIs](api/): fetching SpaceX data and exporting it to CSV.
+- [Data cleaning](data-cleaning/): filtering records and removing duplicates.
+- [Data conversion](data-conversion/): CSV-to-JSON exercises.
+- [Data validation](data-validation/): simple validation and reports.
 
-## Other folders
+Read each lab's README before running it; dependencies and sample inputs vary.
+Some examples access the network or overwrite output files.
 
-`scraping/`, `api/`, `data-cleaning/`, `cli/`, `automation/`, and `notes/` are reserved for future exercises.
-
-Finished tools live in separate repositories. Examples here may be incomplete or experimental.
+`cli/`, `automation/`, and `notes/` are placeholders.
+Exercises may be incomplete or outdated. Finished tools live in separate repositories.
